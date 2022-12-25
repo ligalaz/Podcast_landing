@@ -1,0 +1,19 @@
+// background-colors
+$body_bg-color: #191919;
+$block_bg-color: #000000;
+$placeholder_bg-color: $body_bg-color;
+$label_bg-color: $body_bg-color;
+$btn_bg-color: #118da8;
+$pseudo-elem_bg-color: $btn_bg-color;
+$icon_bg-color: #ffffff;
+$active-icon_bg-color: $btn_bg-color;
+
+//text-colors
+
+$main_text-color: #ffffff;
+$mini-title_text-color: #ffffff;
+$midi-title_text-color: #118da8;
+$emblem__text-color: $main_text-color;
+$btn_text-color: $main_text-color;
+$link_text-color: $main_text-color;
+$active-link_text-color: $midi-title_text-color;
