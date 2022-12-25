@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./resources/styles/css/styles.css" />
+    <link rel="icon" href="./resources/icons/favicon.svg" />
+    <title>Podcast Studio</title>
+  </head>
+  <body class="parent">
+    <header class="header parent__header">
+      <div class="container header__container">
+        <div class="emblem header__emblem">
+          <p class="emblem__text">Castaway</p>
+        </div>
+        <nav class="navigation-menu header__navigation-menu">
+          <ul class="list navigation-menu__list">
+            <li class="navigation-menu__item">
+              <a
+                href="#"
+                class="navigation-menu__link navigation-menu_active_link header__link"
+                >Home</a
+              >
+            </li>
+            <li class="navigation-menu__item">
+              <a href="#episodes" class="navigation-menu__link header__link"
+                >Episodes</a
+              >
+            </li>
+            <li class="navigation-menu__item">
+              <a href="#about" class="navigation-menu__link header__link"
+                >About</a
+              >
+            </li>
+            <li class="navigation-menu__item">
+              <a href="#contact" class="navigation-menu__link header__link"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="burger header__burger burger_unvisible">
+          <div class="burger__item"></div>
+          <div class="burger__item"></div>
+          <div class="burger__item"></div>
+        </div>
+      </div>
+    </header>
+    <main class="main parent__main">
+      <div class="container">
+        <div class="start-screen main__start-screen">
+          <div class="decor-element main__decor-element">
+            <div class="decor-element__item decor-element_first-item"></div>
+            <div class="decor-element__item decor-element_second-item"></div>
+            <div class="decor-element__item decor-element_third-item"></div>
+          </div>
+          <div class="photo">
+            <img
+              class="main__photo"
+              src="./resources/img/startscreen.jpg"
+              alt=""
+            />
+          </div>
+          <div class="info main__info">
+            <div class="title main__title">
+              <p class="title__row">Take your</p>
+              <p class="title__row">podcast to the</p>
+              <p class="title__row third-row">
+                <span class="third_row__decor-item">next</span>
+                <span class="third-row__item">level</span>
+              </p>
+            </div>
+            <div class="podcasts main__podcasts">
+              <div class="title podcasts__title">Listen on</div>
+              <div class="logos podcasts__logos">
+                <a
+                  class="logos__item"
+                  href="https://open.spotify.com/"
+                  target="_blank"
+                  ><img
+                    src="./resources/icons/spotify.svg"
+                    alt="spotify-logo"
+                    class="logos__item"
+                /></a>
+                <a
+                  class="logos__item"
+                  href="https://pocketcasts.com/"
+                  target="_blank"
+                  ><img
+                    src="./resources/icons/roll.svg"
+                    alt="roll-logo"
+                    class="logos__item"
+                /></a>
+                <a
+                  class="logos__item"
+                  href="https://soundcloud.com/"
+                  target="_blank"
+                >
+                  <img
+                    src="./resources/icons/cloud.svg"
+                    alt="cloud-logo"
+                    class="logos__item"
+                /></a>
+                <a
+                  class="logos__item"
+                  href="https://www.apple.com/by/apple-podcasts/"
+                  target="_blank"
+                  ><img
+                    src="./resources/icons/phone.svg"
+                    alt="phone-logo"
+                    class="logos__item"
+                /></a>
+                <a
+                  class="logos__item"
+                  href="https://overcast.fm/"
+                  target="_blank"
+                  ><img
+                    src="./resources/icons/radiostation.svg"
+                    alt="radiostation-logo"
+                    class="logos__item"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <section id="episodes" class="episodes parent__episodes">
+      <div class="container episodes__container">
+        <div class="menu episodes__menu">
+          <div class="title episodes__title">Latest episodes</div>
+          <button class="button episodes__button">View all episodes</button>
+        </div>
+        <div class="library episodes__library">
+          <div class="roll-rectangle library__item">
+            <div class="library__photo">
+              <img
+                class="episodes__photo"
+                src="./resources/img/Episodes/Episode_3.jpg"
+                alt="sound_panel"
+              />
+            </div>
+            <div class="description library__description">
+              <div class="label description__label">Gear</div>
+              <div class="title description__title">Episode 3</div>
+              <div class="topic description__topic">
+                <p class="topic__item">Should you get</p>
+                <p class="topic__item">outboard audio gear?</p>
+              </div>
+              <div class="text description__text">
+                Is hardware really worth it when it comes to podcasting? The
+                answer is...it depends. Here’s our reasons on why you might want
+                to consider picking something up.
+              </div>
+              <button class="button description__button">
+                View Episode Details
+              </button>
+            </div>
+          </div>
+          <div class="roll-rectangle library__item library__item_unvisible">
+            <div class="library__photo">
+              <img
+                class="episodes__photo"
+                src="./resources/img/Episodes/Episode_2.jpg"
+                alt="vertical_microphone"
+              />
+            </div>
+            <div class="description library__description">
+              <div class="label description__label description__label_big">
+                Tips & Tricks
+              </div>
+              <div class="title description__title">Episode 2</div>
+              <div class="topic description__topic">
+                <p class="topic__item">Mic tricks to take</p>
+                <p class="topic__item">you to the next level</p>
+              </div>
+              <div class="text description__text">
+                Stop rolling with those default settings on your mic. These
+                small tweaks will take you from sounding good to great.
+              </div>
+              <button class="button description__button">
+                View Episode Details
+              </button>
+            </div>
+          </div>
+          <div class="roll-rectangle library__item library__item_unvisible">
+            <div class="library__photo">
+              <img
+                class="episodes__photo"
+                src="./resources/img/Episodes/Episode_1.jpg"
+                alt="podcast_host"
+              />
+            </div>
+            <div class="description library__description">
+              <div class="label description__label">Gear</div>
+              <div class="title description__title">Episode 1</div>
+              <div class="topic description__topic">
+                <p class="topic__item">The best microphone</p>
+                <p class="topic__item">under $200</p>
+              </div>
+              <div class="text description__text">
+                With so many microphones on the market, how are you supposed to
+                know what’s the best? Take a look at our top picks.
+              </div>
+              <button class="button description__button">
+                View Episode Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about parent__about">
+      <div class="container about__container">
+        <div class="host-information about__host-information">
+          <div class="button host-information__button">&#8594;</div>
+          <div class="title about__title">Meet your host</div>
+          <div class="title host-information__title">Jacob Paulaner</div>
+          <div class="host-text">
+            <div class="text host-text__item">
+              <p>Jacob has a background in audio engineering, and has</p>
+              <p>been podcasting since the early days.</p>
+            </div>
+            <div class="text host-text__item">
+              <p>He’s here to help you level up your game by sharing</p>
+              <p>everything he’s learned along the way.</p>
+            </div>
+          </div>
+        </div>
+        <div class="photo">
+          <img
+            src="./resources/img/host_author.jpg"
+            alt="host_author"
+            class="about__photo"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="subscribes parent__subscribes">
+      <div class="container">
+        <div class="roll-rectangle subscribes__row">
+          <div class="decor-element subscribes__decor-element">
+            <div class="decor-element__item decor-element_first-item"></div>
+            <div class="decor-element__item decor-element_second-item"></div>
+            <div class="decor-element__item decor-element_third-item"></div>
+          </div>
+          <div class="subscribes__info">
+            <div class="title subscribes__title">Email Newsletter</div>
+            <div class="topic subscribes__topic">
+              <div class="topic__item">Subscribe</div>
+              <div class="topic__item">for updates</div>
+            </div>
+          </div>
+          <form action="#" class="form subscribes__form">
+            <input type="text" class="name form__item" placeholder="Name" />
+            <input type="email" class="email form__item" placeholder="Email" />
+            <button type="submit" class="button form__button">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="reviews parent__reviews">
+      <div class="container reviews__container">
+        <div class="roll-rectangle reviews__item top-row">
+          <div class="logos reviews__logos">
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+          </div>
+          <div class="comment reviews__comment">
+            <p class="comment__item">I can’t recommend</p>
+            <p class="comment__item">this podcast</p>
+            <p class="comment__item">enough</p>
+          </div>
+          <div class="author comment__author">Betty Lacey</div>
+        </div>
+        <div class="roll-rectangle reviews__item top-row">
+          <div class="logos reviews__logos">
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+          </div>
+          <div class="comment reviews__comment">
+            <p class="comment__item">Jacob is the best</p>
+            <p class="comment__item">in the business</p>
+          </div>
+          <div class="author comment__author">Adam Driver</div>
+        </div>
+        <div class="roll-rectangle reviews__item top-row">
+          <div class="logos reviews__logos">
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+          </div>
+          <div class="comment reviews__comment">
+            <p class="comment__item">A wealth of audio</p>
+            <p class="comment__item">knowledge</p>
+          </div>
+          <div class="author comment__author">Marcus Brown</div>
+        </div>
+        <div class="roll-rectangle reviews__item bottom-row">
+          <div class="logos reviews__logos">
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+          </div>
+          <div class="comment reviews__comment">
+            <p class="comment__item">Every episode is a</p>
+            <p class="comment__item">gem!</p>
+          </div>
+          <div class="author comment__author">Jessica Knowl</div>
+        </div>
+        <div class="roll-rectangle reviews__item bottom-row">
+          <div class="logos reviews__logos">
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+          </div>
+          <div class="comment reviews__comment">
+            <p class="comment__item">Whoa whoa, let me</p>
+            <p class="comment__item">take some notes!</p>
+          </div>
+          <div class="author comment__author">Scott Adams</div>
+        </div>
+        <div class="roll-rectangle reviews__item bottom-row">
+          <div class="logos reviews__logos">
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+            <img
+              src="./resources/icons/star.svg"
+              alt="star"
+              class="logos__item"
+            />
+          </div>
+          <div class="comment reviews__comment">
+            <p class="comment__item">I’ve upped my</p>
+            <p class="comment__item">game considerably</p>
+            <p class="comment__item">since I started</p>
+            <p class="comment__item">listening</p>
+          </div>
+          <div class="author comment__author">Steven Blast</div>
+        </div>
+      </div>
+    </section>
+    <footer id="contact" class="contacts parent__contacts">
+      <div class="container contacts__container">
+        <div class="social-networks contacts__social-networks">
+          <div class="emblem contacts__emblem">
+            <p class="emblem__text">Castaway</p>
+          </div>
+          <div class="social-networks__row">
+            <div class="social-networks__item">
+              <a href="https://www.instagram.com/" target="_blank"
+                ><svg class="social-networks__logo">
+                  <use
+                    xlink:href="./resources/icons/contacts/instagram.svg#instagram"
+                  ></use>
+                </svg>
+              </a>
+            </div>
+            <div class="social-networks__item">
+              <a href="https://twitter.com/?lang=ru" target="_blank">
+                <svg class="social-networks__logo">
+                  <use
+                    xlink:href="./resources/icons/contacts/twitter.svg#twitter"
+                  ></use>
+                </svg>
+              </a>
+            </div>
+            <div class="social-networks__item">
+              <a href="https://ru-ru.facebook.com/" target="_blank">
+                <svg class="social-networks__logo">
+                  <use
+                    xlink:href="./resources/icons/contacts/facebook.svg#facebook"
+                  ></use>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <nav
+          class="navigation-menu contacts__navigation-menu navigation-menu_current_page"
+        >
+          <ul class="list navigation-menu__list">
+            <li class="navigation-menu__item">
+              <a href="#" class="navigation-menu__link">Home</a>
+            </li>
+            <li class="navigation-menu__item">
+              <a href="#episodes" class="navigation-menu__link">Episodes</a>
+            </li>
+            <li class="navigation-menu__item">
+              <a href="#about" class="navigation-menu__link">About</a>
+            </li>
+            <li class="navigation-menu__item">
+              <a href="#contact" class="navigation-menu__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="navigation-menu contacts__navigation-menu">
+          <ul class="list navigation-menu__list">
+            <li class="navigation-menu__item">
+              <a
+                href="./error.html"
+                class="navigation-menu__link"
+                target="_blank"
+                >Style Guide</a
+              >
+            </li>
+            <li class="navigation-menu__item">
+              <a
+                href="./error.html"
+                class="navigation-menu__link"
+                target="_blank"
+                >Instructions</a
+              >
+            </li>
+            <li class="navigation-menu__item">
+              <a
+                href="./error.html"
+                class="navigation-menu__link"
+                target="_blank"
+                >Changelog</a
+              >
+            </li>
+            <li class="navigation-menu__item">
+              <a
+                href="./error.html"
+                class="navigation-menu__link"
+                target="_blank"
+                >Credit</a
+              >
+            </li>
+            <li class="navigation-menu__item">
+              <a
+                href="./error.html"
+                class="navigation-menu__link"
+                target="_blank"
+                >Powered by Webflow</a
+              >
+            </li>
+            <li class="navigation-menu__item">
+              <a
+                href="./error.html"
+                class="navigation-menu__link"
+                target="_blank"
+                >Licenses</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="podcasts contacts__podcasts">
+          <div class="logos podcasts__logos">
+            <a
+              class="logos__item"
+              href="https://open.spotify.com/"
+              target="_blank"
+              ><img
+                src="./resources/icons/spotify.svg"
+                alt="spotify-logo"
+                class="logos__item"
+            /></a>
+            <a
+              class="logos__item"
+              href="https://pocketcasts.com/"
+              target="_blank"
+              ><img
+                src="./resources/icons/roll.svg"
+                alt="roll-logo"
+                class="logos__item"
+            /></a>
+            <a
+              class="logos__item"
+              href="https://soundcloud.com/"
+              target="_blank"
+            >
+              <img
+                src="./resources/icons/cloud.svg"
+                alt="cloud-logo"
+                class="logos__item"
+            /></a>
+            <a
+              class="logos__item"
+              href="https://www.apple.com/by/apple-podcasts/"
+              target="_blank"
+              ><img
+                src="./resources/icons/phone.svg"
+                alt="phone-logo"
+                class="logos__item"
+            /></a>
+            <a class="logos__item" href="https://overcast.fm/" target="_blank"
+              ><img
+                src="./resources/icons/radiostation.svg"
+                alt="radiostation-logo"
+                class="logos__item"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>

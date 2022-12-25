@@ -1,0 +1,14 @@
+@font-face {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  src: url("../../fonts/DM_Sans/DMSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Zen Dots", cursive;
+  font-style: normal;
+  src: url("../../fonts/Zen_Dots/ZenDots-Regular.ttf");
+}
+
+$main_font: "DM Sans", sans-serif;
+$emblem_font: "Zen Dots", cursive;
