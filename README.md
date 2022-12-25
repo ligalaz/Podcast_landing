@@ -1,0 +1,1 @@
+When developing the landing, the bem methodology & scss was used.
